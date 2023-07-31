@@ -13,7 +13,7 @@ class LineRichMangerController extends Controller
 {
     public function create(RichMenuStoreRequest $request)
     {
-        //dd();
+        
 
         $richMenu = RichMenu::createImage($request->validated());
         
